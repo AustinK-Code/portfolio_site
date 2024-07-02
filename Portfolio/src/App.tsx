@@ -5,14 +5,17 @@ import AboutMe from "./Components/AboutMe";
 import Navigation from "./Components/Navigation";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
     <>
+      {" "}
       <Stack spacing={8}>
-        <Intro />
         <Navigation />
+        <Intro />
         <AboutMe />
+        <Skills />
         <Projects />
         <Contact />
       </Stack>

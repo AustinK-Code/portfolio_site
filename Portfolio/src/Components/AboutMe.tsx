@@ -4,7 +4,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <>
-      <Box>
+      <Box sx={{border:1, borderColor:'error.main'}}>
           <Typography variant="h2">About Me</Typography>
           <Typography variant="body1" sx={{pt:1}}>
             I am a software developer with a passion for creating and building

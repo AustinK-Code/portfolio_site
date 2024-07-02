@@ -5,7 +5,7 @@ import GameHub from "../Images/GameHub.png";
 const Projects = () => {
   return (
     <>
-      <Stack spacing={5}>
+      <Stack spacing={5} sx={{border:1, borderColor:'error.main'}}>
         <Box sx={{ mb: 4 }}>
           <Typography variant="h2">Projects</Typography>
           <Typography variant="body1" sx={{ pt: 1 }}>
