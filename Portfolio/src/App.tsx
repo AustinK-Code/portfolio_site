@@ -10,10 +10,9 @@ import Skills from "./Components/Skills";
 function App() {
   return (
     <>
-      {" "}
-      <Stack spacing={8}>
+      <Stack spacing={3}>
         <Navigation />
-        <Intro />
+        <Intro/>
         <AboutMe />
         <Skills />
         <Projects />

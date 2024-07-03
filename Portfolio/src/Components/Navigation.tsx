@@ -45,8 +45,9 @@ const Navigation = () => {
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
             onClick={handleClick}
+            style={{ padding: 16}}
           >
-            <MenuIcon></MenuIcon>
+            <MenuIcon fontSize="large"></MenuIcon>
           </IconButton>
           <Menu
             id="basic-menu"
