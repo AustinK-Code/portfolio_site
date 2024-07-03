@@ -3,5 +3,7 @@
   margin: 0 auto;
   text-align: center;
 }
-
+img {
+  border-radius: 1%;
+}
 
