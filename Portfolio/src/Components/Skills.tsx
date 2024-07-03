@@ -21,19 +21,33 @@ const logoList = [
   { id: 7, src: pega, alt: "PEGA" },
   { id: 8, src: postgress, alt: "Postgress" },
   { id: 9, src: postman, alt: "Postman" },
-  { id: 10, src: react, alt: "React" }
-]
+  { id: 10, src: react, alt: "React" },
+];
 
 const Skills = () => {
   return (
-    <Paper elevation={8} sx={{borderRadius:4}}>
-      <Typography variant="h2" sx={{marginTop:3}}> Skills</Typography>
-      <Paper elevation={8} sx={{ margin:8,marginTop:2 , backgroundColor: "#212121"}}>
-        {logoList.map((logo) => (
-          <img key={logo.id} src={logo.src} alt={logo.alt} style={{ width: 100, height: 100, margin:50 }} />
-        ))}
+    <>
+      <div id="skills"></div>
+      <Paper elevation={8} sx={{ borderRadius: 4 }}>
+        <Typography variant="h2" sx={{ marginTop: 3 }}>
+          {" "}
+          Skills
+        </Typography>
+        <Paper
+          elevation={8}
+          sx={{ margin: 8, marginTop: 2, backgroundColor: "#212121" }}
+        >
+          {logoList.map((logo) => (
+            <img
+              key={logo.id}
+              src={logo.src}
+              alt={logo.alt}
+              style={{ width: 100, height: 100, margin: 50 }}
+            />
+          ))}
+        </Paper>
       </Paper>
-    </Paper>
+    </>
   );
 };
 

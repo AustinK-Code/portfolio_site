@@ -5,14 +5,15 @@ import {
   Link,
   Paper,
   Stack,
-  Typography
+  Typography,
 } from "@mui/material";
 import GameHub from "../assets/GameHub.png";
-import Portfolio from "../assets/AKFullyLoaded.png"
+import Portfolio from "../assets/AKFullyLoaded.png";
 
 const Projects = () => {
   return (
     <>
+      <div id="projects"></div>
       <Paper elevation={8} sx={{ borderRadius: 4 }}>
         <Stack spacing={5} sx={{ margin: 8, marginTop: 2 }}>
           {/* writing at the top */}

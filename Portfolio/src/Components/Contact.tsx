@@ -1,12 +1,4 @@
-import {
-  Box,
-  Divider,
-  IconButton,
-  Link,
-  Paper,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Box, Divider, Link, Paper, Stack, Typography } from "@mui/material";
 import logo from "../assets/AK.png";
 import linkedin from "../assets/Socials/linkedin-icon.svg";
 import github from "../assets/Socials/github-icon.svg";
@@ -14,6 +6,7 @@ import github from "../assets/Socials/github-icon.svg";
 const Contact = () => {
   return (
     <>
+      <div id="contact"></div>
       <Paper elevation={8} sx={{ borderRadius: 4 }}>
         <Typography variant="h2">Contact Me!</Typography>
         <Stack
@@ -22,7 +15,7 @@ const Contact = () => {
           justifyContent="center"
           alignItems="center"
           divider={<Divider orientation="vertical" flexItem />}
-          sx={{ margin: 8}}
+          sx={{ margin: 8 }}
         >
           {/* Bottom logo */}
           <img src={logo} alt="logo" style={{ width: 200, height: 200 }} />

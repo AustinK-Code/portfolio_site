@@ -6,4 +6,6 @@
 img {
   border-radius: 1%;
 }
-
+.scroll-buttons{
+  scroll-margin-top: 1000px;
+}

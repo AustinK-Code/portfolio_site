@@ -3,7 +3,8 @@ import { Paper, Typography } from "@mui/material";
 const AboutMe = () => {
   return (
     <>
-      <Paper elevation={8} sx={{ borderRadius: 4}} >
+      <div id="aboutme"></div>
+      <Paper elevation={8} sx={{ borderRadius: 4 }} className="AboutMe">
         <Typography variant="h2" sx={{ mt: 3 }}>
           About Me
         </Typography>
