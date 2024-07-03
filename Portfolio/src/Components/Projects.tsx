@@ -23,7 +23,7 @@ const Projects = () => {
               </Container>
             </Grid>
             <Grid md={6}>
-              <Paper elevation={3}><img src="src\Images\GameHub.png" alt="game hub site" height="100%" width="100%" /></Paper>
+              <Paper elevation={3}><img src="src\assets\GameHub.png" alt="game hub site" height="100%" width="100%" /></Paper>
             </Grid>
           </Grid>
         </Stack>

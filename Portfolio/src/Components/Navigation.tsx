@@ -29,9 +29,9 @@ const Navigation = () => {
       <AppBar position="fixed">
         <Toolbar>
           {" "}
-          <IconButton onClick={RefreshPage}>
+          <IconButton onClick={RefreshPage} sx={{ borderRadius: 4 }}>
             <img
-              src="src\assets\cupcake.png"
+              src="src\assets\AK.png"
               alt="logo"
               style={{ width: 50, height: 50 }}
             />
