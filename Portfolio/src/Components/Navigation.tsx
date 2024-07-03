@@ -9,6 +9,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import React from "react";
+import logo from "../assets/AK.png";
 
 const RefreshPage = () => {
   window.location.reload();
@@ -41,7 +42,7 @@ const Navigation = () => {
           {" "}
           <IconButton onClick={RefreshPage} sx={{ borderRadius: 4 }}>
             <img
-              src="src\assets\AK.png"
+              src={logo}
               alt="logo"
               style={{ width: 50, height: 50 }}
             />
