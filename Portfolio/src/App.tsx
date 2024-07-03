@@ -10,10 +10,10 @@ import Skills from "./Components/Skills";
 function App() {
   return (
     <>
-      <Stack spacing={3}>
+      <Stack spacing={3} sx={{marginTop:8, marginBottom:3}}>
         <Navigation />
         <Intro/>
-        <AboutMe />
+        <AboutMe/>
         <Skills />
         <Projects />
         <Contact />

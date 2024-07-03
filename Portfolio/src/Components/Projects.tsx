@@ -5,8 +5,7 @@ import {
   Link,
   Paper,
   Stack,
-  Typography,
-  styled,
+  Typography
 } from "@mui/material";
 import GameHub from "../assets/GameHub.png";
 import Portfolio from "../assets/AKFullyLoaded.png"
