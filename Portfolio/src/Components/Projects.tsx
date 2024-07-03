@@ -1,5 +1,4 @@
-import { Box, Container, Grid, Paper, Stack, Typography, styled } from "@mui/material";
-import GameHub from "../Images/GameHub.png";
+import { Box, Container, Grid, Paper, Stack, Typography } from "@mui/material";
 
 
 const Projects = () => {

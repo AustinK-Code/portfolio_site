@@ -1,4 +1,4 @@
-import { Box, Button, Container, Stack, Typography } from "@mui/material";
+import { Stack } from "@mui/material";
 import "./App.css";
 import Intro from "./Components/Intro";
 import AboutMe from "./Components/AboutMe";
