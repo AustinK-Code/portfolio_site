@@ -10,7 +10,7 @@ import {
   useTheme,
 } from "@mui/material";
 import GameHub from "../assets/GameHub.png";
-import Portfolio from "../assets/AKFullyLoaded.png";
+import Portfolio from "../assets/PortfolioSite.png";
 
 const Projects = () => {
   const theme = useTheme();
@@ -74,7 +74,7 @@ const Projects = () => {
                       Vercel.
                       <br />
                       <Link
-                        href="https://game-hub-six-eta.vercel.app/"
+                        href="https://portfolio-weld-nine-47.vercel.app/"
                         target="_blank"
                         variant="inherit"
                         underline="hover"
@@ -169,7 +169,7 @@ const Projects = () => {
                     with React, Material-UI, and Vite. Deployed on Vercel.
                     <br />
                     <Link
-                      href="https://game-hub-six-eta.vercel.app/"
+                      href="https://portfolio-weld-nine-47.vercel.app/"
                       target="_blank"
                       variant="inherit"
                       underline="hover"

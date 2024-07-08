@@ -1,4 +1,4 @@
-import { Paper, Typography } from "@mui/material";
+import { Paper, Typography, useMediaQuery, useTheme } from "@mui/material";
 
 import c from "../assets/Languages/c-sharp.svg";
 import css from "../assets/Languages/css-3.svg";
@@ -25,6 +25,35 @@ const logoList = [
 ];
 
 const Skills = () => {
+  
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up("md"));
+  
+  if(!matches)
+  return (
+    <>
+      <div id="skills"></div>
+      <Paper elevation={8} sx={{ borderRadius: 4 }}>
+        <Typography variant="h2" sx={{ marginTop: 3 }}>
+          {" "}
+          Skills
+        </Typography>
+        <Paper
+          elevation={8}
+          sx={{ margin: 8, marginTop: 2, backgroundColor: "#212121" }}
+        >
+          {logoList.map((logo) => (
+            <img
+              key={logo.id}
+              src={logo.src}
+              alt={logo.alt}
+              style={{ width: 50, height: 50, margin: 25 }}
+            />
+          ))}
+        </Paper>
+      </Paper>
+    </>
+  );
   return (
     <>
       <div id="skills"></div>
