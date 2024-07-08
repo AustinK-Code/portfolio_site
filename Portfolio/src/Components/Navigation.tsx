@@ -11,6 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import React from "react";
 import logo from "../assets/AK.png";
 
+
 const RefreshPage = () => {
   window.location.reload();
 };
