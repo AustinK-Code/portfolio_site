@@ -23,16 +23,17 @@ const Navigation = () => {
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };
-  const handleClose = (id: string) => {
+  const handleClose = (id?: string | unknown) => {
     setAnchorEl(null);
 
-    const barHeight = "91px";
-    const scrollSection = document.getElementById(id);
-    console.log(scrollSection);
-    if (scrollSection) {
-      //had to add bar height here to account for the fixed app bar. Must be done with react.
-      scrollSection.style.scrollMargin = barHeight;
-      scrollSection.scrollIntoView({ behavior: "smooth" });
+    if (typeof id === "string") {
+      const barHeight = "91px";
+      const scrollSection = document.getElementById(id);
+      if (scrollSection) {
+        //had to add bar height here to account for the fixed app bar. Must be done with react.
+        scrollSection.style.scrollMargin = barHeight;
+        scrollSection.scrollIntoView({ behavior: "smooth" });
+      }
     }
   };
 
